@@ -1,0 +1,39 @@
+.checkbox-example {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2.checkbox-heading {
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.checkbox{
+    width: 5%;
+    margin-top: 5px;
+    position: absolute;
+}
+
+
+.checkbox-group {
+    display: block; 
+    width: auto; 
+}
+
+input[type="checkbox"] {
+    margin-right: 8px; 
+    vertical-align: middle; 
+}
+
+label.checkbox-label {
+    margin: 0px 0px 0px 50px;
+    font-size: 1em;
+    color: #555;
+    cursor: pointer;
+    vertical-align: middle; 
+}

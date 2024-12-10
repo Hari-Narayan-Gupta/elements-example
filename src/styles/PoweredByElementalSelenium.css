@@ -1,0 +1,27 @@
+.powered-by {
+    position: fixed;
+    bottom: 0;
+    right: 0; 
+    padding: 20px;
+    font-size: 14px;
+    background-color: #f8f8f8;
+    width: 75.5%;  
+    border-top: 1px solid #ccc;
+  }
+  
+  .powered-by p {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: right;  
+  }
+  
+  .link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  

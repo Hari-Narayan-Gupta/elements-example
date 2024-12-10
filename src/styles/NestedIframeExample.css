@@ -1,0 +1,39 @@
+.nested-iframe-example {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.top-iframes {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.iframe {
+  height: 200px;
+  border: 1px solid #ddd;
+}
+
+.left {
+  width: 30%; /* Left iframe */
+}
+
+.middle {
+  width: 30%; /* Middle iframe */
+}
+
+.right {
+  width: 30%; /* Right iframe */
+}
+
+.bottom-iframe {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-iframe .iframe.full-width {
+  width: 100%; /* Full width for the bottom iframe */
+  height: 300px;
+}
+

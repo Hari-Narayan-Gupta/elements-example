@@ -1,0 +1,30 @@
+.double-click-example {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .double-click-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2ba6cb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .double-click-button:hover {
+    background-color: #2592b3;
+  }
+  
+  .message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #4CAF50;
+  }
+  

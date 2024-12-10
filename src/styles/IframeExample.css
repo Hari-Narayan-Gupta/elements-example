@@ -1,0 +1,12 @@
+/* IframeExample.css */
+.iframe-example {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  iframe {
+    margin-top: 20px;
+    border: 3px solid #0073e6;
+    border-radius: 8px;
+  }
+  

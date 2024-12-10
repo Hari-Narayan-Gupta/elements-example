@@ -1,0 +1,96 @@
+.header-container {
+    height: 180px;
+    margin: 48px auto 0 auto;
+    width: 90%;
+    /* min-width: 100%; */
+    border-radius: 12px;
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.calendar-container {
+    max-width: 95%;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 0 8px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.input-group+.input-group {
+    border-left: 2px solid rgb(153, 153, 153);
+    display: flex;
+    align-items: center;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    padding-block: 16px;
+    background-color: rgb(230, 230, 230);
+    margin-right: 3px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 150px;
+}
+
+.search-btn {
+    padding: 10px 32px;
+    font-size: 16px;
+    background-color: #f0850c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    min-height: 50px;
+    border-radius: 0 12px 12px 0;
+}
+
+.search-btn:hover {
+    background-color: #ffa600;
+}
+
+/* .calendar-icon {
+} */
+
+
+.calendar-input {
+    width: 100px;
+}
+
+input[type="date"] {
+    width: 150px;
+}
+
+input[type="number"] {
+    border-left: 2px solid rgb(153, 153, 153);
+    margin: 0;
+    width: 120px;
+    border-radius: unset;
+}
+
+label {
+    /* margin-left: 10px; */
+}
+
+@media (max-width: 768px) {
+    .calendar-container {
+        flex-direction: column;
+    }
+
+    .input {
+        width: 100%;
+    }
+}

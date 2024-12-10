@@ -1,0 +1,96 @@
+/* AlertExample.css */
+
+.alert-example {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: center;
+    /* padding: 40px; */
+    background-color: #f4f4f9;
+    /* min-height: 100vh; */
+    margin-left: 70px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #666;
+    text-align: center;
+  }
+  
+  .btn {
+    background-color: #2ba6cb;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #2891b1;
+  }
+  
+  .btn:active {
+    background-color: 2891b1;
+  }
+  
+  .alert-button {
+    background-color: #2ba6cb; /* Blue color */
+  }
+  
+  .alert-button:hover {
+    background-color: #2ba6cb; /* Darker blue */
+  }
+  
+  .confirm-button {
+    background-color: #2ba6cb; /* Red color */
+  }
+  
+  .confirm-button:hover {
+    background-color: #2292b4; /* Darker red */
+  }
+  
+  .prompt-button {
+    background-color: #2292b4; /* Orange color */
+  }
+  
+  .prompt-button:hover {
+    background-color: #2292b4; /* Darker orange */
+  }
+  
+  /* Styling the result message */
+  .result-message {
+    color: rgb(21, 138, 21);
+  }
+  
+
+  .alert-btn{
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+
+  #jsAlert{
+    margin: 5px !important;
+  }
+
+  #jsConfirm{
+    margin: 5px !important;
+  }
+
+  #jsPrompt{  
+    margin: 5px !important;
+  }

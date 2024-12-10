@@ -1,0 +1,82 @@
+.form-wrapper {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.inputField__wrapper {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 95%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* .signup-input {
+  width: 95% !important;
+} */
+
+input[type="radio"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+.radio-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button.signup-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ef7a16;
+  border: none;
+  width: 95%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.submit-button:hover {
+  background-color: #ce7527;
+}
+
+/* .dropdown-example{
+    background: linear-gradient(135deg, #4a4953, #78767d);
+  } */
+
+.form-heading {
+  margin: 0;
+  text-align: center;
+  /* color: #fff; */
+  font-size: 2rem;
+}
+
+
+/* 
+  .form-subhead{
+    text-align: center;
+    color: #fff;
+  } */
+
+.success-message {
+  color: rgb(61, 216, 61);
+}
